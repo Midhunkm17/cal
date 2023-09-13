@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(15, 19, 17);
+}
+h1{
+    align-content: center;
+    color: white;
+}
+@media (max-width:400px){
+    .h1{
+        text-align: center;
+        position: fixed;
+    }
+}
+.d1{
+    height: 270px;
+    width: 17%;
+    background-color: rgb(155, 192, 183);
+    border: solid 2px rgb(236, 10, 10);
+    margin-top: 109px;
+    margin-left: 775px;
+    padding: 1%;   
+}
+@media (max-width:400px){
+    .d1{
+        margin-left: 10px;
+        width: 95%;
+    }
+}
+button{
+    height: 34px;
+    width: 32%;
+   background-color: black;
+   color: azure;
+   font-size: 17px;
+}
+.c{
+    background-color: rgb(255, 0, 0);
+margin-top:-11px;
+margin-left: 3%;
+}
+@media (max-width:400px){
+    .c{
+        margin-left: 10px;
+    }
+}
+input{
+    width: 60%;
+    height: 27px;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+
